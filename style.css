@@ -198,3 +198,74 @@ footer {
 .dev-name span {
   color: #00ff88;
 }
+
+.contact {
+  padding: 120px 20px;
+
+  text-align: center;
+
+  background: #0f0f0f;
+}
+
+.contact h2 {
+  font-size: 60px;
+
+  margin-bottom: 50px;
+
+  color: white;
+}
+
+.contact-icons {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.contact-icons a {
+  width: 90px;
+  height: 90px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: rgba(0, 255, 136, 0.08);
+
+  color: #00ff88;
+
+  font-size: 38px;
+
+  text-decoration: none;
+
+  transition: 0.4s;
+}
+
+.contact-icons a:hover {
+  transform: translateY(-10px) scale(1.08);
+
+  box-shadow: 0 0 30px #00ff88;
+}
+
+@media(max-width: 768px) {
+
+  .contact h2 {
+    font-size: 42px;
+  }
+
+  .contact-icons {
+    gap: 20px;
+  }
+
+  .contact-icons a {
+    width: 75px;
+    height: 75px;
+
+    font-size: 30px;
+  }
+
+}
