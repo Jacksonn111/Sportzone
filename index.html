@@ -1,86 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jackson Dev | Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SportZone</title>
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <header>
-    <div class="logo">Jackson<span>Dev</span></div>
+    <div class="logo">
+  SPORT<span>ZONE</span>
+
+  <p class="dev-name">
+    by JacksonDev
+  </p>
+</div>
 
     <nav>
-      <a href="#inicio">Início</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
+      <a href="#">Início</a>
+      <a href="#news">Notícias</a>
+      <a href="#games">Jogos</a>
+      <a href="#contact">Contato</a>
     </nav>
   </header>
 
-  <section class="hero" id="inicio">
+  <section class="hero">
+    <div class="overlay"></div>
+
     <div class="hero-content">
-      <h1>Desenvolvedor Front-End</h1>
+      <h1>O melhor portal de esportes</h1>
+      <p>Futebol, basquete, Fórmula 1, UFC e muito mais.</p>
 
-      <p>
-        Criando sites modernos, responsivos e com design profissional.
-      </p>
-
-      
+      <button id="newsBtn">Ver Notícias</button>
     </div>
   </section>
 
-  <section class="projetos" id="projetos">
-    <h2>Meus Projetos</h2>
+  <section class="news" id="news">
+    <h2>Últimas Notícias</h2>
 
-    <div class="cards">
+    <div class="news-container">
 
-    
-  </section>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop" alt="Futebol">
 
-  <section class="sobre" id="sobre">
-    <div class="sobre-box">
-      <h2>Sobre Mim</h2>
+        <div class="card-content">
+          <span>Futebol</span>
+          <h3>Time vence campeonato em final histórica</h3>
+          <p>Uma partida emocionante marcou a grande final do torneio.</p>
+        </div>
+      </div>
 
-      <p>
-        Meu nome é Jackson, tenho 17 anos e estou aprendendo
-        desenvolvimento web.
-      </p>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1200&auto=format&fit=crop" alt="Basquete">
 
-      <p>
-        Atualmente estudo HTML, CSS e JavaScript enquanto desenvolvo
-        projetos para melhorar minhas habilidades como programador.
-      </p>
+        <div class="card-content">
+          <span>Basquete</span>
+          <h3>Cesta no último segundo decide o jogo</h3>
+          <p>Equipe garante vitória incrível diante da torcida.</p>
+        </div>
+      </div>
 
-      <p>
-        Meu objetivo é evoluir cada vez mais e criar sites modernos,
-        rápidos e profissionais.
-      </p>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=1200&auto=format&fit=crop" alt="Corrida">
+
+        <div class="card-content">
+          <span>Atletismo</span>
+          <h3>Novo recorde mundial é alcançado</h3>
+          <p>Atleta impressiona com desempenho histórico.</p>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <section class="contato" id="contato">
-    <h2>Contato</h2>
+  <section class="games" id="games">
+    <h2>Resultados</h2>
 
-    <div class="socials">
-      <a href="mailto:jacksondevx@gmail.com">
+    <div class="game-box">
+      <p>Leões FC <span>2 x 1</span> Águias United</p>
+    </div>
+
+    <div class="game-box">
+      <p>Thunder <span>89 x 86</span> Titans</p>
+    </div>
+
+    <div class="game-box">
+      <p>Runners <span>4 x 3</span> Speed Team</p>
+    </div>
+  </section>
+
+  <section class="contact">
+
+  <h2>Contato</h2>
+
+  <div class="contact-icons">
+
+    <a href="mailto:jacksondevx@gmail.com">
         <i class="fa-solid fa-envelope"></i>
       </a>
 
-      <a href="https://instagram.com/jackson.devx" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
+    <a href="https://instagram.com/jacksonn.x7" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
 
-      <a href="https://wa.me/5581988693435" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-      </a>
-    </div>
-  </section>
+    <a href="https://wa.me/5581988693435" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
 
-  <footer>
-    <p>© 2026 - Desenvolvido por Jackson Dev</p>
+  </div>
+
+</section>
+
+  <footer id="contact">
+    <p>© 2026 SPORTZONE - Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
